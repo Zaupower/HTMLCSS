@@ -1,0 +1,176 @@
+body {
+    height: 100%;
+    background-color: rgba(226, 232, 240, 1);
+    text-align: center;
+}
+
+.path {
+    text-align: left;
+    height: 20%;
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+    height: 80%;
+}
+
+.block {
+    background-color: #fff;
+    border-radius: .500rem;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.left_block_column {
+    height: 100%;
+    width: 20%;
+    float: left;
+    display: inline;
+}
+
+.right_block_column {
+    height: 100%;
+    width: 80%;
+    float: right;
+    display: inline;
+}
+
+.social_media_icon {
+    width: 50%;
+    display: inline;
+}
+
+.table_contact {
+    width: 70%;
+}
+
+.table_contact_column_name {
+    width: 30%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.table_contact_column_value {
+    width: 70%;
+    text-align: left;
+}
+
+.path_part_link {
+    color: rgba(4, 140, 252, 1);
+}
+
+button {
+    width: 35%;
+    height: 30px;
+}
+
+.follow_button {
+    background-color: rgba(0, 123, 255, 1);
+    color: white;
+    border-color: rgba(0, 123, 255, 1);
+    border-radius: .200rem;
+}
+
+.message_button {
+    background-color: white;
+    color: rgba(0, 123, 255, 1);
+    border-color: rgba(0, 123, 255, 1);
+    border-radius: .200rem;
+}
+
+.project_row {
+    display: flex;
+    height: 35%;
+}
+
+.project_block {
+    width: 33%;
+    flex: 1;
+}
+
+.table_project_column_skill {
+    width: 30%;
+    text-align: left;
+}
+
+.table_project_column_progress {
+    width: 70%;
+    text-align: left;
+}
+
+.table_project {
+    width: 100%;
+}
+
+.project_name {
+    font-size: 22;
+    font-weight: bold;
+}
+
+progress {
+    width: 100%;
+}
+
+.avatar {
+    background-color: white;
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+}
+
+.table_url_icon_row {
+    width: 30%;
+}
+
+.table_url_link_row {
+    width: 70%;
+    text-align: left;
+}
+
+.language_dropdown {
+    float: right;
+}
+
+li{
+    text-align: left;
+}
+.contacts{
+    height: 15%;
+}
+
+
+
+
+
+.layout {
+    overflow: hidden;
+    border-top: 2px solid black;
+    height: 76%;
+    background-image: url(images/sp2.jpg);
+    background-size: cover;
+}
+
+
+.col1,
+.col3 {
+    width: 8%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    background-size: cover;
+    font-size: 110%;
+     float: left;
+}
+
+.col2 {
+    background-color: rgba(26, 62, 84, 0.7);
+    width: 84%;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 100%;
+    padding: 10px;
+    font-size: 110%;
+     float: left;
+}
