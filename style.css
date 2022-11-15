@@ -1,0 +1,25 @@
+.container1{
+    height: 200px;
+    display: flex;
+    border: solid 2px #0fab78;
+    width: 100%;
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    white 50%,
+    rgb(181, 166, 166) 50%,
+    rgb(181, 166, 166) 100%
+  );
+    justify-content: flex-end;
+    align-items: flex-end;
+    }
+    .container1 .item{
+        margin: auto;
+    }
+
+    .avatar {
+        background-color: white;
+        border-radius: 50%;
+        width: 100px;
+        height: auto;
+    }
