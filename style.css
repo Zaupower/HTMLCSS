@@ -7,8 +7,8 @@
     to bottom,
     white 0%,
     white 50%,
-    rgb(181, 166, 166) 50%,
-    rgb(181, 166, 166) 100%
+    rgb(241,241,241) 50%,
+    rgb(241,241,241) 100%
   );
     justify-content: flex-end;
     align-items: flex-end;
