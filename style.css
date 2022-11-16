@@ -1,14 +1,16 @@
-/*Background rgb(248,252,255)*/
-body {
+
+html, body {
   background-color: rgb(248,252,255);
+  height: 100%;
+  margin: 0;
 }
 .root {
   border: solid 1px #0fab78;
   display: flex;
-  height: 600px;
+  height: 99%px;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -17,7 +19,6 @@ body {
   height: 35%;
   width: 75%;
   display: flex;
-  justify-content: center;
   flex-direction: row;
   align-items: baseline;
   background: linear-gradient(to bottom,
@@ -29,18 +30,51 @@ body {
 
 /*Caixa de adicinoar comentario*/
 .container2{
-  padding-top: 5%;
   border: solid 1px #0fab78;
-  height: 6%;
+  height: 15%;
   width: 65%;
+  padding: 1%;
   display: flex;
-
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-around;
   background: linear-gradient(to bottom,
       white 0%,
       white 60%,
       rgb(241, 241, 241) 50%,
       rgb(241, 241, 241) 100%);
 }
+
+.expand {
+  flex-grow: 1;
+  border: 2px dashed blue;
+  display: flex;
+}
+
+textarea {
+  width: 100%;
+}
+
+.textareapost {
+  flex: 50%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+.postButton{
+  border: none;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 5%;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(50,120,181); /* Green */
+  border: none;
+  color: white;
+}
+
 /*Caixa de main comentario*/
 .container3{
   padding-top: 5%;
@@ -48,6 +82,7 @@ body {
   height: 6%;
   width: 65%;
   display: flex;
+  justify-content:stretch;
 }
 /*Caixa de resposta comentario*/
 .container4{
@@ -69,7 +104,7 @@ body {
 }
 
 .profilepic .avatar {
-  width: 90%;
+  width: 84%;
   height: auto;
   border: solid 1px #0fab78;
   border-radius: 50%;
@@ -166,8 +201,8 @@ body {
 }
 
 .dot {
-  height: 2px;
-  width: 2px;
+  height: 5px;
+  width: 5px;
   background-color: green;
   border-radius: 50%;
   display: inline-block;
