@@ -95,8 +95,8 @@ body {
   align-self: left;
   flex-direction: column;
   align-items: baseline;
-
 }
+
 
 .profileinfobottom {
   border: solid 1px red;
@@ -108,7 +108,7 @@ body {
 
 .button {
   border: none;
-  padding: 10px 25px;
+  padding: 8px 22px;
   text-align: center;
   border-radius: 5%;
   text-decoration: none;
@@ -119,20 +119,12 @@ body {
   background-color: white; /* Green */
   border: none;
   color: black;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
 
 .biob, .editProfileb {
-  background-color: gray; /* Green */
+  background-color: rgb(225,225,225); /* Green */
   border: none;
   color: blue;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
 }
 
 .footer-texts {
@@ -140,7 +132,7 @@ body {
   font-size: 10px;
   display: flex;
   color: blue;
-  width: 80%;/*Aumentar caixa de info top*/
+  width: 99%;/*Aumentar caixa de info top*/
   height: 80%;
   font-family: sans-serif;
   align-self: left;
@@ -199,7 +191,16 @@ body {
   align-items: center;
 }
 
-.footer-texts>span:not(:last-child)::after {
+.sp33 {
+  width: 23%;
+  position: relative;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-texts>span:not(.sp3)::after {
   content: '';
   position: absolute;
   right: -2px;
@@ -207,5 +208,5 @@ body {
   width: 1px;
   height: 40%;
   /*Change vertical lines size*/
-  background-color: gray;
+  background-color: rgb(241, 241, 241);
 }
