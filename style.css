@@ -1,25 +1,142 @@
 .container1{
-    height: 200px;
+    border: solid 1px #0fab78;
+    height: 100px;
+    width: 380px;
     display: flex;
-    border: solid 2px #0fab78;
-    width: 100%;
-  background: linear-gradient(
-    to bottom,
-    white 0%,
-    white 50%,
-    rgb(241,241,241) 50%,
-    rgb(241,241,241) 100%
-  );
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
+      background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 50%,
+        rgb(241,241,241) 50%,
+        rgb(241,241,241) 100%
+      );
     }
-    .container1 .item{
-        margin: auto;
+    
+
+    .profilepic{
+      border: solid 1px #0fab78;
+        padding: 1%;
+        margin: 1%;
+        width: 20%;
+        height: 90%;
+        display: flex;
+        align-self: center;
+        align-items: baseline;
+    }
+
+    .profilepic .avatar{
+      width: 90%;
+      height: auto;
+      border: solid 1px #0fab78;
+      border-radius: 50%;
+    }
+
+    .profileinfo{
+      border: solid 1px #1c0fab;
+        display: flex;
+        height: 85%;
+        width: 90%;
+        margin: 1%;
+        flex-direction: column;
+        align-self: center;
+        align-items: baseline;
+
+    }
+    .profileinfotop{
+      border: solid 1px red;
+      align-self: bottom;
+      height: 50%;
+      width: 98%;
+      display: flex;
+      align-self: center;
+
+    }
+
+    .footer-texts {
+      border: solid 1px #1c0fab;
+      font-size: 1mm;
+      display: flex;
+      color:blue;
+      width: 40%;
+      height: 80%;
+      font-family: sans-serif;
+      align-self: center;
+    }
+    .footer-texts > .sp1 {
+      width: 40%;
+      position: relative;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-texts > .sp2 {
+      width: 40%;
+      position: relative;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-texts > .sp3 {
+      width: 40%;
+      position: relative;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .footer-texts > span:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      right: -2px;
+      top: 25%;
+      width: 1px;
+      height: 40%;/*Change vertical lines size*/
+      background-color:gray;
+    }
+
+
+
+
+    .profileinfobottom{
+      border: solid 1px red;
+      align-self: bottom;
+      height: 50%;
+
+    }
+   
+/*
+    .topAItem{
+      margin: auto;
+      border: solid 2px #0fab78;
+    }
+
+    .bottomBItem{
+      width: auto;
+        height: auto;
+      margin: auto;
+      border: solid 2px #0fab78;
     }
 
     .avatar {
+        width: 20%;
+        height: auto;
+        border: solid 2px #0fab78;
+    }
+    .profileAvatar {
+        position:fixed; 
+        left:15px; 
+        top:74px;
         background-color: white;
         border-radius: 50%;
-        width: 100px;
-        height: auto;
+        border: solid 2px #0fab78;
     }
+
+    */
