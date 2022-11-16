@@ -69,16 +69,39 @@
       width: 40%;
       position: relative;
       display: flex;
-      text-align: center;
+      text-align: left;
       justify-content: center;
       align-items: center;
+      
     }
 
+    .profileName{
+      font-size: 6px;
+      text-align: left;
+      color: blue;
+    }
+    .bottomLine{
+      color: gray;
+    }
+
+    .topLine{
+
+      font-weight: bold;
+      font-size: 6px;
+      color: black;
+    }
+    .dot {
+      height: 2px;
+      width: 2px;
+      background-color: green;
+      border-radius: 50%;
+      display: inline-block;
+    }
     .footer-texts > .sp2 {
       width: 40%;
       position: relative;
       display: flex;
-      text-align: center;
+      text-align: left;
       justify-content: center;
       align-items: center;
     }
@@ -87,7 +110,7 @@
       width: 40%;
       position: relative;
       display: flex;
-      text-align: center;
+      text-align: left;
       justify-content: center;
       align-items: center;
     }
