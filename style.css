@@ -1,3 +1,11 @@
+
+.root{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container1{
     border: solid 1px #0fab78;
     height: 100px;
@@ -19,7 +27,6 @@
     .profilepic{
       border: solid 1px #0fab78;
         padding: 1%;
-        margin: 1%;
         width: 20%;
         height: 90%;
         display: flex;
@@ -36,20 +43,30 @@
 
     .profileinfo{
       border: solid 1px #1c0fab;
-        display: flex;
-        height: 85%;
-        width: 90%;
-        margin: 1%;
-        flex-direction: column;
-        align-self: center;
-        align-items: baseline;
+      height: 85%;
+      width: 90%;
+      flex-direction: column;
+      display: flex;
+      align-self: center;
+      align-items: baseline;
 
     }
     .profileinfotop{
       border: solid 1px red;
       align-self: bottom;
       height: 50%;
-      width: 98%;
+      width: 99.5%;
+      display: flex;
+      align-self: left;
+      flex-direction: column;
+      align-items: baseline;
+
+    }
+    .profileinfobottom{
+      border: solid 1px red;
+      align-self: bottom;
+      height: 50%;
+      width: 99.5%;
       display: flex;
       align-self: center;
 
@@ -63,10 +80,12 @@
       width: 40%;
       height: 80%;
       font-family: sans-serif;
-      align-self: center;
+      align-self: left;
     }
     .footer-texts > .sp1 {
+      padding-right: 5%;
       width: 40%;
+      height: auto;
       position: relative;
       display: flex;
       text-align: left;
@@ -85,8 +104,6 @@
     }
 
     .topLine{
-
-      font-weight: bold;
       font-size: 6px;
       color: black;
     }
@@ -128,12 +145,7 @@
 
 
 
-    .profileinfobottom{
-      border: solid 1px red;
-      align-self: bottom;
-      height: 50%;
-
-    }
+    
    
 /*
     .topAItem{
