@@ -1,13 +1,12 @@
 
 html, body {
   background-color: rgb(248,252,255);
-  height: 100%;
   margin: 0;
 }
 .root {
+  margin: 0.2%;
   border: solid 1px #0fab78;
   display: flex;
-  height: 99%px;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -15,6 +14,7 @@ html, body {
 }
 
 .container1 {
+  margin: 2%;
   border: solid 1px #0fab78;
   height: 35%;
   width: 75%;
@@ -30,14 +30,14 @@ html, body {
 
 /*Caixa de adicinoar comentario*/
 .container2{
+  margin: 2%;
   border: solid 1px #0fab78;
   height: 15%;
   width: 65%;
-  padding: 1%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: baseline;
   justify-content: space-around;
   background: linear-gradient(to bottom,
       white 0%,
@@ -46,23 +46,36 @@ html, body {
       rgb(241, 241, 241) 100%);
 }
 
-.expand {
-  flex-grow: 1;
-  border: 2px dashed blue;
+
+/*-------------------*/
+
+#message-input-bar {
+  height: 90%;
+  width: 99%;
   display: flex;
+  border: solid 2px #0fab78;
+  justify-content: space-between;
 }
 
-textarea {
-  width: 100%;
+.txarea{
+  border: solid 2px #f2aa0f;
+  align-self: flex-start;
+  height: 60%;
+  width: 99%;
+  flex: 1;
+  resize: vertical;
 }
 
-.textareapost {
-  flex: 50%;
-  flex-direction: column;
-  justify-content: flex-end;
+.submittxt{
+  border: solid 2px red;
+  align-self: flex-end;
+  height: 40%;
+  flex: 1;
+  resize: vertical;
 }
 
 
+/*-------------------*/
 .postButton{
   border: none;
   padding: 5px 20px;
@@ -77,6 +90,7 @@ textarea {
 
 /*Caixa de main comentario*/
 .container3{
+  margin: 0.2%;
   padding-top: 5%;
   border: solid 1px #0fab78;
   height: 6%;
@@ -86,6 +100,7 @@ textarea {
 }
 /*Caixa de resposta comentario*/
 .container4{
+  margin: 0.2%;
   padding-top: 5%;
   border: solid 1px #0fab78;
   height: 5%;
