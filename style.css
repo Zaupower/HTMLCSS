@@ -108,24 +108,6 @@ html, body {
   flex-direction: column;
   align-items: baseline;
 }
-/*
-.commentpic{
-  border: solid 1px yellow;
-  width: 60px;
-  height: 70px;
-  display: flex;
-  align-self: flex-start;
-  align-items: baseline;
-}
-
-.commentContent{
-  border-bottom: solid 1px #0fab78;
-  width: 99%;
-  height: 70px;
-  display: flex;
-  align-self: flex-start;
-  align-items: baseline;
-}*/
 
 /*Caixa de resposta comentario*/
 .container4{
@@ -162,6 +144,13 @@ html, body {
 
 .commentAction{
   color: blue;
+  font-size: 13px;
+  padding: 1%;
+  border: solid 1px red;
+}
+
+.commentActionRep{
+  color: gray;
   font-size: 13px;
   padding: 1%;
   border: solid 1px red;
@@ -251,10 +240,36 @@ html, body {
   display: inline-block;
 }
 
+.buttonFollow{
+  border-radius: 5%;
+  background-color: white; /* Green */
+  border: 1px solid gray;
+  color: black;
+  padding: 3px 7px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
 .profileb {
   background-color: white; /* Green */
   border: none;
   color: black;
+}
+
+.profilebLoadMore {
+  border-radius: 5%;
+  background-color: white; /* Green */
+  border: 1px solid gray;
+  color: black;
+  padding: 7px 12px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 7%;
+  margin-bottom: 7%;
 }
 
 .biob, .editProfileb {
@@ -333,7 +348,8 @@ html, body {
   display: flex;
   text-align: left;
   justify-content: end;
-  align-items: center;
+  padding: 3%;
+  align-items: flex-start;
 }
 
 .footer-texts>span:not(.sp3)::after {
