@@ -58,7 +58,7 @@ html, body {
 }
 
 .txarea{
-  border: solid 1px  rgb(241, 241, 241);
+  border: solid 0.1px  rgb(241, 241, 241);
   align-self: flex-start;
   height: 60%;
   width: 100%;
