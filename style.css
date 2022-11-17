@@ -5,7 +5,6 @@ html, body {
 }
 .root {
   margin: 0.2%;
-  border: solid 1px #0fab78;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -16,7 +15,6 @@ html, body {
 /*profile*/
 .container1 {
   margin: 2%;
-  border: solid 1px #0fab78;
   height: 45%;
   width: 85%;
   display: flex;
@@ -117,7 +115,6 @@ html, body {
 }
 
 .container5{
-  border: solid 1px green;
   border-bottom: solid 1px rgb(197, 190, 190);
   width: 91.8%;
   display: flex;
@@ -126,7 +123,6 @@ html, body {
 
 .mainComment{
   border-bottom: solid 1px rgb(197, 190, 190);
-  border: solid 1px red;
   height: 99%;
   width: 99.9%;
   display: flex;
@@ -146,14 +142,12 @@ html, body {
   color: blue;
   font-size: 13px;
   padding: 1%;
-  border: solid 1px red;
 }
 
 .commentActionRep{
   color: gray;
   font-size: 13px;
   padding: 1%;
-  border: solid 1px red;
 }
 /*pic main coment*/
 
@@ -177,7 +171,6 @@ html, body {
 
 /*profile pic*/
 .container6{
-  border: solid 1px green;
   padding: 1%;
   width: 6.4%;
   height: 70%;
@@ -187,7 +180,6 @@ html, body {
 }
 
 .profilepic {
-  border: solid 1px #0fab78;
   padding: 1%;
   width: 150px;
   height: 150px;
@@ -206,7 +198,6 @@ html, body {
 }
 
 .profileinfo {
-  border: solid 1px yellow;
   display: flex;
   width: 90%;
   height:90%;
@@ -217,7 +208,6 @@ html, body {
 .profileinfotop {
   height: 100px;
   margin-top: 2%;
-  border: solid 1px red;
   align-self: top;
   display: flex;
   align-self: stretch;
@@ -226,7 +216,6 @@ html, body {
 
 .profileinfobottom {
   padding: 1%;
-  border: solid 1px red;
   align-self: bottom;
   display: flex;
 }
@@ -276,10 +265,10 @@ html, body {
   background-color: rgb(225,225,225); /* Green */
   border: none;
   color: blue;
+  
 }
 
 .footer-texts {
-  border: solid 1px #1c0fab;
   font-size: 10px;
   display: flex;
   color: blue;
@@ -349,7 +338,7 @@ html, body {
   text-align: left;
   justify-content: end;
   padding: 3%;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .footer-texts>span:not(.sp3)::after {
