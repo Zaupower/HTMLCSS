@@ -255,7 +255,7 @@ html, body {
   position: relative;
   display: flex;
   text-align: left;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
