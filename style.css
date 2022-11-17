@@ -33,8 +33,8 @@ html, body {
 .container2{
   margin: 2%;
   border: solid 1px  rgb(241, 241, 241);
-  height: 20%;
-  width: 65%;
+  height: 30%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -103,21 +103,58 @@ html, body {
 /*Caixa de main comentario*/
 .container3{
   margin: 0.2%;
-  padding-top: 5%;
   border: solid 1px #0fab78;
-  height: 6%;
-  width: 65%;
+  width: 70%;
   display: flex;
-  justify-content:stretch;
+  flex-direction: column;
+  align-items: baseline;
 }
+/*
+.commentpic{
+  border: solid 1px yellow;
+  width: 60px;
+  height: 70px;
+  display: flex;
+  align-self: flex-start;
+  align-items: baseline;
+}
+
+.commentContent{
+  border-bottom: solid 1px #0fab78;
+  width: 99%;
+  height: 70px;
+  display: flex;
+  align-self: flex-start;
+  align-items: baseline;
+}*/
+
 /*Caixa de resposta comentario*/
 .container4{
+  border: solid 1px #0fab78;
+  height: 50px;
+  width: 99.5%;
+  display: flex;
+  align-self: flex-start;
+}
+
+.container5{
   margin: 0.2%;
   padding-top: 5%;
   border: solid 1px #0fab78;
   height: 5%;
-  width: 60%;
+  width: 90%;
   display: flex;
+  align-self: flex-end;
+}
+
+/*profile pic*/
+.container6{
+  border: solid 1px red;
+  width: 9%;
+  height: 99.2%;
+  display: flex;
+  align-self: flex-start;
+  align-items: baseline;
 }
 
 .profilepic {
