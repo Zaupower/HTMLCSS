@@ -23,8 +23,8 @@ html, body {
   flex-direction: row;
   align-items: baseline;
   background: linear-gradient(to bottom,
-      white 0%,
-      white 50%,
+  rgb(248,252,255) 0%,
+  rgb(248,252,255) 50%,
       rgb(241, 241, 241) 50%,
       rgb(241, 241, 241) 100%);
 }
@@ -123,18 +123,20 @@ html, body {
 .profilepic {
   border: solid 1px #0fab78;
   padding: 1%;
-  width: 15.5%;
-  height: 70%;
+  width: 150px;
+  height: 150px;
   display: flex;
   align-self: flex-start;
   align-items: baseline;
 }
 
 .profilepic .avatar {
-  width: 80%;
+  width: 90%;
   height: auto;
   border: solid 3px white;
   border-radius: 50%;
+  display: flex;
+  align-self: flex-start;
 }
 
 .profileinfo {
@@ -157,7 +159,7 @@ html, body {
 
 
 .profileinfobottom {
-  margin-top: 2%;
+  padding: 2%;
   border: solid 1px red;
   align-self: bottom;
   display: flex;
