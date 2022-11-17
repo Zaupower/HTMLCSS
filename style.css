@@ -31,7 +31,7 @@ html, body {
 /*Caixa de adicinoar comentario*/
 .container2{
   margin: 2%;
-  border: solid 1px #0fab78;
+  border: solid 1px  rgb(241, 241, 241);
   height: 15%;
   width: 65%;
   display: flex;
@@ -41,7 +41,7 @@ html, body {
   justify-content: space-around;
   background: linear-gradient(to bottom,
       white 0%,
-      white 60%,
+      white 50%,
       rgb(241, 241, 241) 50%,
       rgb(241, 241, 241) 100%);
 }
@@ -51,29 +51,40 @@ html, body {
 
 #message-input-bar {
   height: 90%;
-  width: 99%;
+  width: 100.2%;
   display: flex;
-  border: solid 2px #0fab78;
+  
   justify-content: space-between;
 }
 
 .txarea{
-  border: solid 2px #f2aa0f;
+  border: solid 1px  rgb(241, 241, 241);
   align-self: flex-start;
   height: 60%;
-  width: 99%;
+  width: 100%;
   flex: 1;
   resize: vertical;
 }
 
 .submittxt{
-  border: solid 2px red;
   align-self: flex-end;
   height: 40%;
+  padding: 1%;
   flex: 1;
   resize: vertical;
 }
 
+.buttonpost{
+  border: none;
+  padding: 2px 10px;
+  text-align: center;
+  border-radius: 5%;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(50,120,181); /* Green */
+  border: none;
+  color: white;
+}
 
 /*-------------------*/
 .postButton{
